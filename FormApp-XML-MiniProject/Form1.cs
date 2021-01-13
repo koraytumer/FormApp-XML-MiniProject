@@ -13,11 +13,6 @@ using System.Xml.Linq;
 
 namespace FormApp_XML_MiniProject
 {
-
-
-    // TÜM DEĞİŞKENLER STRİNG OLSA SORUN OLUR MU??
-    //LOADUSERS İÇERİDE USER OLMADIĞI ZAMAN PATLIYOR VE YENİ BİR KAYIT AÇARKEN ID OLADIĞI İÇİN 1 OLARAK ATAMIYOR
-
     public partial class Form1 : Form
     {
         string filePath = Application.StartupPath + @"\Users.xml";
